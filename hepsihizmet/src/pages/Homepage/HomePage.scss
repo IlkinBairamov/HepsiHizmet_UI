@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero {
+    height: 550px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    .body-container {
+        background-color: rgba(0,0,0,.25);
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(https://cdn.armut.com/images/custom-web-elements/hero-november-19/10.jpg);
+       
+    }
+
+    .wrapper {
+        padding: 21px 0 15px 0;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        .widow-fix{
+            margin-top: 15px
+        }
+        h1{
+            color: #fff;
+        }
+        h2{
+            color: #fff;
+            display: inline-block;
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 34px;
+            line-height: 1.4em;
+            margin-top: 0;
+            letter-spacing: 0;
+        }
+        @media only screen and (min-width: 769px){
+            h2 {
+                font-size: 22px;
+                line-height: 28px;
+                text-transform: none;
+                letter-spacing: 0;
+        }
+         
+        }
+    } 
+    @media only screen and (min-width: 1200px){
+      h1 {
+            font-size: 80px;
+    }
+      
+    }
+
+@media only screen and (min-width: 769px){
+    h1 {
+        font-size: 4.5vw;
+        line-height: 70px;
+        letter-spacing: 0;
+        margin-bottom: 16px;
+    }
+   
+}
+}
