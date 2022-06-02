@@ -13,7 +13,7 @@ export const Header : React.FC =()=>{
                 <div className="container">
                     <a className='logo' href="#" ></a>
                     <ul className="list-inline header-container header-container-homepage">
-                        <li>
+                        <li style={{marginLeft:"20px"}}>
                             <a href="https://armut.com/g/temizlik-1">TEMİZLİK</a>
                         </li>
                         <li>
@@ -38,19 +38,19 @@ export const Header : React.FC =()=>{
                             <a href="https://armut.com/g/diger">DİĞER</a>
                         </li>
                     </ul>
-                        <div className="profile-nav">
-                            <ul className="list-inline">
-                                <li className="hizmet-ver">
-                                    <a className="btn-login" href="https://destek.armut.com/hc/tr">YARDIM</a>
-                                </li>
-                                <li className="hizmet-ver-container">
-                                    <a href="https://armut.com/profesyonel-uye-ol">HİZMET VER</a>
-                                </li>
-                                <li className="hizmet-ver">
-                                    <a href="https://armut.com/giris" className="btn-login">GİRİŞ</a>
-                                </li>
-                            </ul>
-                        </div>
+                    <div className="profile-nav">
+                        <ul className="list-inline">
+                            <li className="hizmet-ver">
+                                <a className="btn-login" href="https://destek.armut.com/hc/tr">YARDIM</a>
+                            </li>
+                            <li className="hizmet-ver-container">
+                                <a href="https://armut.com/profesyonel-uye-ol">HİZMET VER</a>
+                            </li>
+                            <li className="hizmet-ver">
+                                <a href="https://armut.com/giris" className="btn-login">GİRİŞ</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </header>
         </>
